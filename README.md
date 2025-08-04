@@ -37,6 +37,9 @@ Then, register the Anaconda environment `env_name` as a kernel to use it in your
 python -m ipykernel install --user --name=env_name --display-name "Kernel_Name"
 ```
 
+When you open the Jupyter notebook, select your kernel in the upper-right corner
+
+
 ![Ejemplo de imagen](im/jupyter_kernel.JPG)
 
 `--name` is the internal identifier
@@ -57,3 +60,7 @@ dataset/
     ├── images/
     └── labels/
 ```
+
+At the end of the notebook it is included a cell in which the detector is tested in a random image of the folder dataset/test/images. here an example is shown
+![Ejemplo de imagen](im/Test.JPG)
+
