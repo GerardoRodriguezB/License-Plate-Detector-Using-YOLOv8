@@ -37,6 +37,8 @@ Then, register the Anaconda environment `env_name` as a kernel to use it in your
 python -m ipykernel install --user --name=env_name --display-name "Kernel_Name"
 ```
 
+![Ejemplo de imagen](img/jupyter_kernel.jpg)
+
 `--name` is the internal identifier
 
 `--display-name` is the name you will see in jupyter
