@@ -60,6 +60,6 @@ dataset/
     └── labels/
 ```
 
-At the end of the notebook it is included a cell in which the detector is tested in a random image of the folder dataset/test/images. here an example is shown
+At the end of the notebook it is included a cell in which the detector is tested in a random image of the folder dataset/test/images. Here an example is shown
 ![Ejemplo de imagen](im/Test.JPG)
 
