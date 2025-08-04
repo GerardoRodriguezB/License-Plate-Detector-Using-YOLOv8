@@ -37,14 +37,13 @@ Then, register the Anaconda environment `env_name` as a kernel to use it in your
 python -m ipykernel install --user --name=env_name --display-name "Kernel_Name"
 ```
 
-When you open the Jupyter notebook, select your kernel in the upper-right corner
-
-
-![Ejemplo de imagen](im/jupyter_kernel.JPG)
-
 `--name` is the internal identifier
 
 `--display-name` is the name you will see in jupyter
+
+When you open the Jupyter notebook, select your kernel in the upper-right corner
+
+![Ejemplo de imagen](im/jupyter_kernel.JPG)
 
 The dataset used to train the model is available in Kaggle (https://www.kaggle.com/datasets/andrewmvd/car-plate-detection), it consists of 433 images with their respectives annotations in PASCAL VOC XML format. In this repository the TXT files in YOLO format (normalized coordinates) are provided. Organize the files as shown in the following tree.
 
