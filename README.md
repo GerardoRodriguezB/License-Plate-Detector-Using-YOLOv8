@@ -1,6 +1,8 @@
 # License-Plates-Detector-Using-YOLOv8
 This repository provides a step-by-step guide to train YOLOv8 from a custom set of images to detect non pre-trained objects (License plates). It is included how to create an load in Jupyter an Anaconda environment with the required versions of packages.
 
+![Ejemplo de imagen](im/Test.JPG)
+
 In the Anaconda prompt create a new environment with python 3.10
 
 ```bash
@@ -60,6 +62,5 @@ dataset/
     └── labels/
 ```
 
-At the end of the notebook it is included a cell in which the detector is tested in a random image of the folder dataset/test/images. Here an example is shown
-![Ejemplo de imagen](im/Test.JPG)
+At the end of the notebook it is included a cell in which the detector is tested in a random image of the folder dataset/test/images.
 
