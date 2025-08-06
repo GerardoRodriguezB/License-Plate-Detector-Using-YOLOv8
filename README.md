@@ -4,7 +4,7 @@ This repository provides a step-by-step guide to train YOLOv8 on a custom datase
 
 ![Ejemplo de imagen](im/Test.JPG)
 
-##Environment Setup
+## Environment Setup
 
 In the Anaconda prompt create a new environment with python 3.10
 
@@ -23,7 +23,7 @@ Navigate to the root folder of the project and install the required packages to 
 pip install -r requirements.txt
 ```
 
-##Install Pytorch
+## Install Pytorch
 If your machine has a GPU compatible with CUDA, install the GPU versions:
 
 ```bash
@@ -36,7 +36,7 @@ Otherwise, install the CPU versions:
 pip install torch==2.5.1 torchvision==0.20.1 torchaudio==2.5.1
 ```
 
-##Using the Environment in Jupyter
+## Using the Environment in Jupyter
 Register the Anaconda environment `env_name` as a Jupyter kernel
 
 ```bash
@@ -51,7 +51,7 @@ Once you open your Jupyter Notebook, select your kernel from the top-right corne
 
 ![Ejemplo de imagen](im/jupyter_kernel.JPG)
 
-##Dataset
+## Dataset
 
 The dataset used to train the model is available in Kaggle 
 [Car Plate Detection Dataset](https://www.kaggle.com/datasets/andrewmvd/car-plate-detection), 
@@ -71,6 +71,4 @@ dataset/
     ├── images/
     └── labels/
 ```
-
-At the end of the notebook it is included a cell in which the detector is tested in a random image of the folder dataset/test/images.
 
