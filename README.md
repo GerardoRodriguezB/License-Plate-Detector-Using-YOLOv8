@@ -23,7 +23,7 @@ Navigate to the root folder of the project and install the required packages to 
 pip install -r requirements.txt
 ```
 
-## Install Pytorch
+## Install PyTORCH
 If your machine has a GPU compatible with CUDA, install the GPU versions:
 
 ```bash
